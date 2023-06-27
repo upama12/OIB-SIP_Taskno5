@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Ysabeau+Office&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+  
+.container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 70px solid #1d1e4c;
+  }
+  
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+.top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+.top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+.top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    
+}
+  
+.image_container {
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+.image_container,
+  img {
+    width: 300px;
+    height: 300px;
+  }
+.about_section {
+    margin-top: 50px;
+    background-color:#FFE4C4
+  }
+.about_section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    
+  }
+
+.biography_section {
+    margin: 20px 0;
+    background-color: #FFEBCD;
+  }
+.biography_section h2 {
+    margin-bottom: 20px;
+    }
+.biography_section ul {
+    margin-left: 50px;
+    
+  }
+.biography_section li {
+    margin-bottom: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+.achievement_section {
+    margin: 20px 0;
+    background-color: #FFF8DC;
+  }
+.achievement_section h2 {
+    margin-bottom: 20px;
+  }
+.achievement_section ol {
+    margin-left: 50px;
+  }
+.achievement_section li {
+    margin-bottom: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+.contribution_section {
+    margin: 20px 0;
+    background-color: #DEB887
+  }
+.contribution_section h2 {
+    margin-bottom: 20px;
+  }
+.contribution_section ol {
+    margin-left: 50px;
+  }
+.contribution_section li {
+    margin-bottom: 15px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+footer {
+    margin: 50px 0;
+  }
+footer p {
+    text-align: end;
+  }
